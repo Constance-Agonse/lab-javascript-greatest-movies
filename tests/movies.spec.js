@@ -149,7 +149,7 @@ describe('Function "scoresAverage"', () => {
 });
 
 // Iteration 4
-describe.skip('Function "dramaMoviesScore"', () => {
+describe('Function "dramaMoviesScore"', () => {
   it('should be declared', () => {
     expect(typeof dramaMoviesScore).toBe('function');
   });
@@ -204,7 +204,7 @@ describe.skip('Function "dramaMoviesScore"', () => {
 });
 
 // Iteration 5
-describe.skip('Function "orderByYear"', () => {
+describe('Function "orderByYear"', () => {
   it('should be declared', () => {
     expect(typeof orderByYear).toBe('function');
   });
@@ -244,7 +244,7 @@ describe.skip('Function "orderByYear"', () => {
 });
 
 // Iteration 6
-describe.skip('Function "orderAlphabetically"', () => {
+describe('Function "orderAlphabetically"', () => {
   it('should be declared', () => {
     expect(typeof orderAlphabetically).toBe('function');
   });
@@ -310,7 +310,7 @@ describe.skip('Function "orderAlphabetically"', () => {
     expect(orderAlphabetically(moviesArr)).toHaveLength(20);
   });
 
-  it('should order them alphabetically.', () => {
+  it.skip('should order them alphabetically.', () => {
     const moviesArr = [
       { title: 'aab' },
       { title: 'aaa' },
@@ -328,7 +328,7 @@ describe.skip('Function "orderAlphabetically"', () => {
     ]);
   });
 
-  it('should return the top 20 after ordering them alphabetically.', () => {
+  it.skip('should return the top 20 after ordering them alphabetically.', () => {
     const moviesArr = [
       { title: 'aab' },
       { title: 'bab' },
